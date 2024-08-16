@@ -10,4 +10,9 @@ public class Student {
         this.rollNo = rollNo;
         this.gender = gender;
     }
+
+    @Override
+    public String toString() {
+        return "Name: "+this.name+" Roll No: "+this.rollNo+" Gender: "+this.gender;
+    }
 }
